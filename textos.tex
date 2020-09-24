@@ -10,33 +10,46 @@
 
 A "Lei de Transparência"~\cite{LeiC131:2009} tem como objetivo de divulgar os gastos da União, dos Estados, Municípios e do Distrito Federal, e o decreto de  nº 8777~\cite{Decreto8777:2016} que tem o intuito de regulamentar a "Lei de Transparência", como promover a publicação de dados de órgãos e  entidades administrativas pública e federais, de modo que sejam publicados de modo contínuos sob a forma de dados abertos. O intuito de disponibilizar esses dado, é de tornar mais transparente dados públicos e ter a participação dos cidadãos, e poder gerar diversas aplicações desenvolvida pela sociedade.
 
-No Intuito de cumprir essa lei o governo, criou o portal de Dados Abertos {Citar o site http://dados.gov.br/} para que os cidadãos possam acessar os dados para poder verificar os públicos criados e disponibilizado como arquivos .CSV e PDF. O senado federal também disponibilizou em seu portal{Cite o site https://www12.senado.leg.br/hpsenado}, dados para que possam acessar e visualizar os dados do senado. Para acessar esses dados o portal disponibiliza os dados administrativos e legislativo do senado que neles contém os dados financeiros quanto os dados de votação e comissão dos senadores. 
+No Intuito de cumprir essa lei o governo, criou o portal de Dados Abertos~\cite{Dados.gov:2020}  para que os cidadãos possam acessar os dados para poder verificar os públicos criados e disponibilizado como arquivos .CSV e PDF. O senado federal também disponibilizou em seu portal~\cite{Senado:2020} , dados para que possam acessar e visualizar os dados do senado. Para acessar esses dados o portal disponibiliza os dados administrativos e legislativo do senado que neles contém os dados financeiros quanto os dados de votação e comissão dos senadores. 
 
-Atualmente existem muitos projetos que utilizam os dados públicos como o projeto serenata de amor{Cite o site https://serenata.ai/} que pega os dados do da câmara dos deputados e verifica através de uma inteligência artificial esses dados se tem alguma irregularidade nos lançamentos da câmara e pública em suas redes sociais para que possam verificar esses lançamentos. 
+Atualmente existem muitos projetos que utilizam os dados públicos como o projeto serenata de amor~\cite{Serenata:2020} que pega os dados do da câmara dos deputados e verifica através de uma inteligência artificial esses dados se tem alguma irregularidade nos lançamentos da câmara e pública em suas redes sociais para que possam verificar esses lançamentos. 
 
 E quando você tenta acessar os dados de gastos do senadores, essas informações estão disponíveis em formato de texto que você tem que ver de um senador específico e não tem como ver de todos os senadores ao mesmo tempo para ter uma comparação, ou está disponível através de um arquivo csv com todos os dados dos senadores para que possa ver todos os dados, com isso dificultando a visualização dessas informações a pessoas que não tem muito conhecimento de informática.  
 
-O  objetivo deste trabalho é desenvolver um sistema que coleta essas informações de gastos dos senadores e através desses dados possa gerar gráficos que resumem essas informações e com isso cidadãos que não tem muito conhecimento em informática possa visualizar esses dados públicos de forma mais fácil e intuitiva através de tabelas dinâmicas.
+O  objetivo deste trabalho é pegar a informações de gastos dos senadores e através desses dados possa gerar gráficos que resumem essas informações e com isso cidadãos que não tem muito conhecimento em informática possa visualizar esses dados públicos de forma mais fácil e intuitiva através de tabelas dinâmicas.
 
 
 
 
 \section{\esp REFERENCIAL TEÓRICO}
 
-Artigo Visualização de dados abertos no setor público ~\cite{Silva:2018} 
-Neste artigo explica que o governo disponibiliza os dados públicos através de arquivos no formato .CSV e PDF, que muita das vezes, não fica claro para a população os dados presentes nesses arquivos. Com a ajuda de infográficos, é possível que esses dados sejam mais bem visualizado, e que tem ferramentas no mercado que podem facilitar essa visualização. O Site visme.co que foi utilizado nesse artigo, que pegou os dados de "Violências  Domésticas,  Sexual  e  Outras", e apresentou de forma mais fácil compreensão utilizando a prática chamada de narração de dados(Storytelling), que foi possível passar uma história através desses dados. 
+ 
 
 \subsection{\esp Visualização de dados}
 
+{\color{red} Falos sobre o que é visualização de dados, a importancia e principais tecnicas.}
+
+A visualização de dados é uma forma de demonstrar dados de forma mais simples e objetiva, no artigo Visualização de dados: passado, presente e futuro~\cite{Silva:2019},Neste artigo explica que a visualização de dados é um processo que já foi utilizado nos tempos passados para representar dados e traça padrões. E para gerar esses conjuntos têm que ter dados limpos, bem trabalhados, tem que seleciona qual a comunicação que você quer passar,e escolher o gráfico adequado para representar essa informação e ter boa escolha de design e cor para gerar o gráfico para poder gerar a melhor representação e da informação que queira passar. Mas tem que ficar atendo pois a visualização de dado não pode funcionar para dados muitos complexos pois a visualização simplifica muito os dados e com isso pode passar interpretações equivocadas ou não conseguir explicar o dado pois a visualização só mostra o dado e não a explica.
+
+Hoje em Dia tem muitas maneiras de se retratar uma visualização de dados deste a mais comuns utilizada nos dia dia como o gráfico de de pizza, que consiste geralmente de um gráfico no formato redondo que fica dividido os seu valores dentro desse gráfico muito bom para destacar grupos específicos de dados. O gráfico de tabela que consiste em formar uma tabela que trabalhar algumas informações em comum sobre dados diferentes. O grafico de linhas consiste geralmente expor uma variação de valores sobre o tem numa grade a assim ligando os pontos dessas variações assim formando o gráfico de linhas. Além dessa visualização que mais habituais de serem utilizadas atualmente, também tem outros tipos de visualização como o gráfico  de Árvores que consistem em colocar palavras chaves ligadas entre si e formando a árvore interligando essas palavras chaves~\cite{Bertolini:2009}. 
 
 
 \subsection{\esp Ferramentas para visualização}
+
+{\color{red} Principais ferramentas de visualização: POwer BI, Tableau, gapminder}
+
+No Mercado atualmente existe muita ferramentas de software que permite fazer a integração dos dados que permite transformar dados em informações visuais de forma fácil e mais interativo que facilite a criação e o compartilhamento delasalém de poder pegar os dados diretamente no site e também permite disponibilizar as informações diretamente nele.
+
+Uma dessas ferramentas é o software da microsoft o Power Bi, que nele consiste várias ferramentas e serviços que permitem o fácil publicações dos relatórios gerados e o desenvolvimento do mesmo~\cite{Microsoft}.Outro software que tem tem o mesmo propósito é a Tableau que tem tem sua ferramenta de visualização ele também permite fazer aprendizado de máquinas e também como a preparação de dados~\cite{TABLEAU}.
 
 
 
 \subsection{\esp Visualização de dados públicos}
  
+ {\color{red} Principais trabalhos na área. }
  
+ Artigo Visualização de dados abertos no setor público ~\cite{Silva:2018} 
+Neste artigo explica que o governo disponibiliza os dados públicos através de arquivos no formato .CSV e PDF, que muita das vezes, não fica claro para a população os dados presentes nesses arquivos. Com a ajuda de infográficos, é possível que esses dados sejam mais bem visualizado, e que tem ferramentas no mercado que podem facilitar essa visualização. O Site visme.co que foi utilizado nesse artigo, que pegou os dados de "Violências  Domésticas,  Sexual  e  Outras", e apresentou de forma mais fácil compreensão utilizando a prática chamada de narração de dados(Storytelling), que foi possível passar uma história através desses dados.
  
 
  
@@ -44,7 +57,13 @@ Neste artigo explica que o governo disponibiliza os dados públicos através de 
 
 \section{\esp Metodologia}
 
+{\color{red} Descrever a base de dados que você vai utilizar. \\ Descrever a ferramenta de visualização. \\ descrever os tipos de visualização que você vai utilizar. }
+
+
+
 \section{\esp Desenvolvimento}
+
+{\color{red} Apresentar do dashboard desenvolvido no Power BI}
 
 \section{\esp Resultados}
 
